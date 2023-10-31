@@ -1,0 +1,29 @@
+description: Representation of an Organization
+type: object
+properties:
+  type_of:
+    type: string
+  username:
+    type: string
+  name:
+    type: string
+  summary:
+    type: string
+  twitter_username:
+    type: string
+  github_username:
+    type: string
+  url:
+    type: string
+  location:
+    type: string
+  joined_at:
+    type: string
+  tech_stack:
+    type: string
+  tag_line:
+    type: string
+    nullable: true
+  story:
+    type: string
+    nullable: true
